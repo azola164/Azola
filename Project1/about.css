@@ -1,0 +1,135 @@
+body
+{
+    background-image:url(image.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 20px;
+    
+   
+}
+.work
+{
+  align-content: center;
+}
+
+/* Add a purple background color to the top navigation */
+.topnav {
+  background-color:purple;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: right;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color:black;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: center;  
+    padding: 15px;
+}
+.btn {
+    border: none;
+    background-color:plum;
+    padding: 14px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display:list-item;
+    width: 90px;
+}
+
+.btn:hover 
+{
+  background-color: grey;
+}
+}
+
+
+.column{
+
+    margin-right: 500px;
+    margin-bottom: 50px;
+    position: absolute;;
+    float: right;
+}
+
+.glow {
+    font-size: 90px;
+    color:whitesmoke;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  .btn
+  {
+  color: plum
+  
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple;
+    }
+    
+    to {
+      text-shadow: 0 0 20px pink, 0 0 30px violet, 0 0 40px violet, 0 0 50px violet, 0 0 60px violet, 0 0 70px violet, 0 0 80px violet6;
+    }
+}
+
+.glowing
+{
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glowing {
+    from {
+      text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px grey, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple;
+    }
+    
+    to {
+      text-shadow: 0 0 20px white, 0 0 30px violet, 0 0 40px violet, 0 0 50px violet, 0 0 60px violet, 0 0 70px violet, 0 0 80px violet;
+    }
+}
+
+.glowe
+{
+    font-size: 30px;
+    color: purple;
+    text-align: left;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glowe {
+    from {
+      text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px grey, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple;
+    }
+    
+    to {
+      text-shadow: 0 0 20px white, 0 0 30px violet, 0 0 40px violet, 0 0 50px violet, 0 0 60px violet, 0 0 70px violet, 0 0 80px violet;
+    }
+}
+
+
