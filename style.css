@@ -1,0 +1,161 @@
+body
+{
+    background-image: url('image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:grey;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: right;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:white;
+  color:black;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: center;  
+    padding-top: 30px;
+    margin-right:20px;
+    margin-bottom: 30px;
+}
+
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:purple;
+    text-align: center;
+    color: seashell;
+    padding-top: 60px;
+    margin:0px;
+    text-emphasis-style: initial;
+}
+    .glow {
+      font-size: 90px;
+      font-family: cursive;
+      font-style: unset;
+      color: white;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px darkviolet, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      
+      to {
+        text-shadow: 0 0 20px white, 0 0 30px plum, 0 0 40px plum, 0 0 50px plum, 0 0 60px violet, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+
+    }
+
+    .glow4
+    {
+      font-size: 30px;
+      color: white;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+
+    }
+
+    @keyframes glow4 {
+      from {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px darkviolet, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      
+      to {
+        text-shadow: 0 0 20px white, 0 0 30px plum, 0 0 40px plum, 0 0 50px plum, 0 0 60px violet, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+
+    }
+
+    .p
+    {
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+
+    }
+
+    @keyframes p {
+      from {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px darkviolet, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      
+      to {
+        text-shadow: 0 0 20px white, 0 0 30px plum, 0 0 40px plum, 0 0 50px plum, 0 0 60px violet, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+
+    }
+
+
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 200px;
+  color:whitesmoke;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 600px;
+  top: 90px;
+  right: 30px;
+  font-size: xx-large;
+  align-content: center;
+
+}
+
+div.transbox{
+  margin-top: 350px;
+  margin-left:400px;
+  border: 10px solid grey ;
+  opacity: 0.9;
+  width:300px;
+  align-content: center;
+}
+div.transbox p{
+
+  margin:10px;
+  font-weight: lighter;
+  color:violet;
+  margin:20px;
+  width:50%;
+  padding:10px;
+  align-content: center;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 500px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+ max-width:  50px;
+ width:100%;
+  }
+
+}
